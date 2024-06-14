@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-image: url('../recursos/imagenes/bg_patron_header.jpg');
+    background-size: contain;
+    color: #ffffff;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+header nav{
+    background-color: #EAA73D;
+    padding: 5px;
+}
+
+header nav ul li a{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#logo{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 1rem;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #EAA73D;
+    font-weight: 700;;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video, audio {
+    display: block;
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5rem;
+}
