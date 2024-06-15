@@ -136,3 +136,32 @@
     flex-direction: row-reverse;
     margin-top: 10px;
 }
+
+.row{
+    display: flex;
+}
+
+.content{
+    width: 70%;
+    display: inline-block;
+}
+
+.sidebar{
+    width: 30%;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
