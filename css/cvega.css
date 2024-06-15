@@ -50,8 +50,21 @@
     min-width: 300px;
     box-shadow: 0 5px 15px #00000026;
     border-radius: 10px;
-    background: #EFEFEF;
+    background: #e8e8e8;
     border: 1px solid silver;
+}
+.article a{
+    text-decoration: none;
+    color: #000000;
+}
+.article__button{
+    background-color: #EAA73D;
+    padding: 5px;
+    position:relative;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .article:hover>.article__more {
