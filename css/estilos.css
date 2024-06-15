@@ -90,3 +90,10 @@ form label {
 form input, form textarea, form button {
     margin-top: 0.5rem;
 }
+section{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
