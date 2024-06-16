@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
+html,body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
@@ -58,14 +58,15 @@ footer {
     font-weight: 700;;
     color: #000000;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position:relative;
     width: 100%;
-    bottom: 0;
+    bottom: -25px;
 }
 
 h1, h2 {
-    color: #343a40;
+    color: #000000;
 }
 
 img {
